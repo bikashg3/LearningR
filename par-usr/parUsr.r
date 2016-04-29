@@ -1,3 +1,4 @@
+# https://chitchatr.wordpress.com/2012/09/18/parusr-is-my-new-friend-for-inserting-legends-in-plots/
 # Create fake data
 x1 <- seq(0.1, 10, 0.5) + rnorm (length(seq(0.1, 10, 0.5)), 0.25)
 y1 <- seq(0.1, 10, 0.5) + rnorm (length(seq(0.1, 10, 0.5)), 0.25)
