@@ -1,4 +1,4 @@
-
+# https://chitchatr.wordpress.com/2012/09/18/parusr-is-my-new-friend-for-inserting-legends-in-plots/
 
 # For this example I will show my solution to always having the legend 
 # in the lower right corner (since I knew ahead of time the data would not fall in that region).
