@@ -1,3 +1,6 @@
+# For making pretty pairs plot in basic regression plot
+# when read lecture note, it appeared unknow function usage as par("usr")
+
 # https://chitchatr.wordpress.com/2012/09/18/parusr-is-my-new-friend-for-inserting-legends-in-plots/
 
 # For this example I will show my solution to always having the legend 
