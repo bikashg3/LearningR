@@ -225,11 +225,6 @@ legend( "bottomright", bg="white",
 # 163507.99 114350.59  85115.57  82035.95  54325.86
 
 
-
-
-
-
-
 ### NON-TAXABLE PARCELS
 
 non.taxable <- rep( "gray80", nrow(dat) )
@@ -250,7 +245,6 @@ tapply( dat$AssessedVa, non.taxable, sum, na.rm=T )
 dev.off()
 
 
-
 ### NEIGHBORHOODS
 
 
@@ -259,4 +253,15 @@ sedgwick <- rep( NA, nrow(dat) )
 sedgwick[ dat$Nhood == "Sedgwick"  ] <- "red" 
 
 plot( syr,  border="gray80", col=sedgwick, main="Sedgwick" )
+
+# water service
+waterSer <- rep("gray80",nrow(dat))
+waterSer[dat$WaterServi=="I"] <- "steel blue"
+plot( syr,  border=NA, col=waterSer, main="Inactive Water Service" )
+
+
+# vacant building
+waterSer <- rep("gray80",nrow(dat))
+waterSer[dat$VacantBuil=="Y"] <- "green"
+plot( syr,  border=NA, col=waterSer, main="Vacant Building" )
 
