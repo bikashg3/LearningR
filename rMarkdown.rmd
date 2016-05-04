@@ -1,0 +1,62 @@
+---
+title: "Title:mtcars"
+output: html_document
+---
+
+
+#### Description
+
+###Emphasis
+
+*italic*   **bold**
+
+_italic_   __bold__
+
+###Headers
+
+# Header 1
+
+## Header 2
+
+### Header 3
+
+###Lists
+
+####Unordered List:
+* Item 1
+* Item 2
+    + Item 2a
+    + Item 2b
+
+####Ordered List:  
+1. Item 1
+2. Item 2
+3. Item 3
+    + Item 3a
+    + Item 3b
+    
+###Miscellaneous
+superscript^2^
+
+~~strikethrough~~   
+
+###Inline R Code
+There were `r nrow(cars)` cars studied
+
+
+
+
+
+The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
