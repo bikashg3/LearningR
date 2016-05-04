@@ -89,6 +89,6 @@ data=nobhill,
   aes(x=lon, y=lat), 
   size=20, # control the point size
   col="orange", # point color 
-  alpha=0.4 
+  alpha=0.4 # transparent level
   )
 
