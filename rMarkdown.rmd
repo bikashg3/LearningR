@@ -5,6 +5,7 @@ author: Y Sun
 date: May 4, 2016
 ---
 
+http://rmarkdown.rstudio.com/authoring_basics.html
 
 #### Description
 
@@ -53,9 +54,7 @@ http://example.com
 
 
 #####Images
-![](http://example.com/logo.png)
 
-![optional caption text](figures/img.png)
 
 #####Blockquotes
 A friend once said:
@@ -64,8 +63,49 @@ A friend once said:
 > than to receive.
 
 
-#####
+#####Plain Code Blocks
+```
+This text is displayed verbatim / preformatted
+```
 
+####LaTeX Equations
+####Inline equation:
+
+$equation$
+
+####Display equation:
+
+$$ equation $$
+
+####Horizontal Rule / Page Break
+
+******
+
+------
+
+
+####Tables
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+####Links
+
+A [linked phrase][id]
+
+####At the bottom of the document:
+
+[id]: http://example.com/ "Title"
+Images
+![alt text][id]
+
+
+####Manual Line Breaks
+
+Roses are red,
+Violets are blue.
 
 
 The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).
