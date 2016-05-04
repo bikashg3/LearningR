@@ -62,5 +62,33 @@ ggmap( get_map( location="baltimore", source="google", maptype="hybrid", zoom=13
 map <- get_map( location="boston" )
 ggmap( map )
 
+# lab 02 case study city: boston
+ggmap( get_map( location=" boston", 
+                source="google", 
+                maptype="terrain", zoom=13) )
 
+# preview about lab 04
+library(ggplot2)
+syracuse <- get_map(  
+  location="syracuse ny", 
+  zoom = 16, 
+  # color="bw"        
+) 
+  
+syr.map <- ggmap( 
+  syracuse, 
+  extent = "device"                  
+  ) 
+  
+# transfer location name to longitude and latitude coordinates 
+nobhill <- geocode("nobhill appartment syracuse ny")
+  
+# add point to the basemap  
+syr.map + geom_point( 
+data=nobhill, 
+  aes(x=lon, y=lat), 
+  size=20, # control the point size
+  col="orange", # point color 
+  alpha=0.4 
+  )
 
