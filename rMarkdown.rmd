@@ -1,6 +1,8 @@
 ---
 title: "mtcars"
 output: html_document
+author: Y Sun
+date: May 4, 2016
 ---
 
 
