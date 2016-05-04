@@ -1,4 +1,5 @@
-# Lab 02 Urban Policy
+# Lab 02 Urban Policy: Load a base map
+
 # install package of ggmap
 install.packages("ggmap")
 
