@@ -1,5 +1,5 @@
 ---
-title: "Title:mtcars"
+title: "mtcars"
 output: html_document
 ---
 
