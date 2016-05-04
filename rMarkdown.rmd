@@ -8,13 +8,13 @@ date: May 4, 2016
 
 #### Description
 
-###Emphasis
+####Emphasis
 
 *italic*   **bold**
 
 _italic_   __bold__
 
-###Headers
+####Headers
 
 # Header 1
 
@@ -24,28 +24,47 @@ _italic_   __bold__
 
 ###Lists
 
-####Unordered List:
+#####Unordered List:
 * Item 1
 * Item 2
     + Item 2a
     + Item 2b
 
-####Ordered List:  
+#####Ordered List:  
 1. Item 1
 2. Item 2
 3. Item 3
     + Item 3a
     + Item 3b
     
-###Miscellaneous
+####Miscellaneous
 superscript^2^
 
 ~~strikethrough~~   
 
-###Inline R Code
+####Inline R Code
 There were `r nrow(cars)` cars studied
 
+####Links
 
+http://example.com
+
+[linked phrase](http://example.com)
+
+
+#####Images
+![](http://example.com/logo.png)
+
+![optional caption text](figures/img.png)
+
+#####Blockquotes
+A friend once said:
+
+> It's always better to give
+> than to receive.
+
+
+#####
 
 
 
