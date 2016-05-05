@@ -33,4 +33,4 @@ source_github("https://raw.githubusercontent.com/lecy/hedonic-prices/master/Step
 
 ~~~
 
-Pay attention that the link should be found with raw code format, it can be found when click 'Raw' button within that page
+Pay attention that the link should be found with raw code format, it can be found when click *Raw* button within that page
