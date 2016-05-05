@@ -1,0 +1,26 @@
+##### create plot function with desired aesthetics
+
+```{r}
+
+# define a function
+plotFun <- function( x1, x2=price, lab1, lab2="House Price" ) #if assign parameters with assignments
+                                                  # the new assigned values will cover the definition
+{
+
+	plot( x1, x2,
+	      pch=19, 
+	      col=gray(0.6, alpha = 0.2), 
+	      cex=2,  
+	      bty = "n",
+	      xlab=lab1, 
+	      ylab=lab2, cex.lab=1.5 )
+
+	lines( lowess(x2~x1), col="grenn", lwd=3 )
+
+}
+
+
+# apply the function
+plotFun( x1=dat$sqft, x2=dat$price, lab1="Size (Square Feet)", lab2="House Price" )
+
+```
