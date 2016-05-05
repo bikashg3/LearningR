@@ -1,9 +1,11 @@
-#####Pattern Matching and Replacement
+####Pattern Matching and Replacement
 
 sub and gsub perform replacement of the first and all matches respectively.
 
 gsub(pattern, replacement, x, ignore.case = FALSE, perl = FALSE,
      fixed = FALSE, useBytes = FALSE)
+
+##### remove commas from numbers
      
 ```{r}
 dat$price <- as.numeric( gsub( ",","", dat$price ) )
