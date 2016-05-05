@@ -19,6 +19,19 @@ plotFun <- function( x1, x2=price, lab1, lab2="House Price" ) #if assign paramet
 
 }
 
+# it equals to the individual plot function
+plot(dat$sqft,dat$price, 
+     pch=19, #type of points to plot
+     col=gray(0.6, alpha = 0.3), 
+     cex=1.5,  #aspect ratio of point size
+     bty = "n", #no border of box
+     xlab="Size (Square Feet)", 
+     ylab="House Price", cex.lab=1.5) #aspect ratio for line thickness
+     
+lines(lowess(dat$sqft, dat$price), col="blue", lwd=2)
+# lowess(x,y)
+# This function performs the computations for the LOWESS smoother 
+# which uses locally-weighted polynomial regression (see the references).
 
 # apply the function
 plotFun( x1=dat$sqft, x2=dat$price, lab1="Size (Square Feet)", lab2="House Price" )
