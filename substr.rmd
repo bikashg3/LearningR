@@ -1,0 +1,11 @@
+  ```{r}
+  this.one <- substr( x, (start.here+12), (start.here+26) )
+```	
+	# Extract or replace substrings in a character vector.
+	# substr(x, start, stop)
+	
+	# Block FIPS:360670040001007  
+	# 36=state, 067=county, 004000=census.tract 1007=block.group
+```{r}	
+	tract.id[i] <- substr( this.one, 6, 11 )
+```
