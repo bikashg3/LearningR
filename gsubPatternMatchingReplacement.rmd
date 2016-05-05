@@ -1,0 +1,13 @@
+#####Pattern Matching and Replacement
+
+sub and gsub perform replacement of the first and all matches respectively.
+
+gsub(pattern, replacement, x, ignore.case = FALSE, perl = FALSE,
+     fixed = FALSE, useBytes = FALSE)
+     
+```{r}
+dat$price <- as.numeric( gsub( ",","", dat$price ) )
+dat$tax <- as.numeric( gsub( ",","", dat$tax ) )
+dat$lot.size <- as.numeric( gsub( ",","", dat$lot.size ) )
+dat$sqft <- as.numeric( gsub( ",","", dat$sqft ) )
+```
