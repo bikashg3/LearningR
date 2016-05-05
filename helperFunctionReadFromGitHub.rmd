@@ -32,3 +32,5 @@ source_github <- function(u) {
 source_github("https://raw.githubusercontent.com/lecy/hedonic-prices/master/Step%2000%20-%20Install%20Required%20Packages.R")
 
 ~~~
+
+Pay attention that the link should be found with raw code format, it can be found when click 'Raw' button within that page
