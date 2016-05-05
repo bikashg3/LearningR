@@ -1,0 +1,35 @@
+https://support.rstudio.com/hc/en-us/articles/205175388-Using-the-Data-Viewer
+
+RStudio includes a data viewer that allows you to look inside data frames and other rectangular data structures. 
+The viewer also allows includes some simple exploratory data analysis (EDA) 
+features that can help you understand the data as you manipulate it with R.
+
+You can invoke the viewer in a console by calling the View function on the data frame you want to look at. 
+For instance, to view the built-in iris dataset, run these commands:
+
+```{r}
+data(iris)
+View(iris)
+```
+
+You can also start the viewer by clicking on the table data icon on the right, in the environment pane:
+
+Sorting
+
+Filtering
+
+Searching
+
+Auto-refreshing
+
+Labels
+```{r}
+library(Hmisc)
+data(women)
+label(women[[1]]) <- "Woman's Height"
+label(women[[2]]) <- "Woman's Weight"
+View(women)
+```
+
+
+
