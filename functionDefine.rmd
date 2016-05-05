@@ -15,7 +15,7 @@ plotFun <- function( x1, x2=price, lab1, lab2="House Price" ) #if assign paramet
 	      xlab=lab1, 
 	      ylab=lab2, cex.lab=1.5 )
 
-	lines( lowess(x2~x1), col="grenn", lwd=3 )
+	lines( lowess(x2~x1), col="green", lwd=3 )
 
 }
 
