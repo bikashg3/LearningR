@@ -1,0 +1,5 @@
+Generate a diagnostic message from its arguments.
+
+```{r}
+suppressMessages( location <- geocode( full.address ) )
+```
