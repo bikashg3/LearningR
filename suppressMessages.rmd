@@ -1,5 +1,23 @@
 Generate a diagnostic message from its arguments.
+```{r}
+
+url2 = "http://data.cityofnewyork.us/api/views/gzdv-qiga/rows.csv?accessType=DOWNLOAD"
+
+my.data = read.csv(file=url2, stringsAsFactors=F )
+
+# head(my.data)
+# 
+# names(my.data)
+# 
+# head(my.data$City)
+```
 
 ```{r}
+library( ggmap )
+
+full.address <- paste( my.data$Address, my.data$City, "NY", sep=", " )
+
+head( full.address )
+
 suppressMessages( location <- geocode( full.address ) )
 ```
