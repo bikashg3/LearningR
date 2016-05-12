@@ -1,0 +1,4 @@
+add pie chart on the geo map 
+https://nzprimarysectortrade.wordpress.com/2011/10/04/tutorial-on-using-the-rworldmap-package/
+
+add bar chart on the geo map
