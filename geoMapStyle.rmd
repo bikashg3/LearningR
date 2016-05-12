@@ -1,4 +1,18 @@
-add pie chart on the geo map 
-https://nzprimarysectortrade.wordpress.com/2011/10/04/tutorial-on-using-the-rworldmap-package/
+add pie chart on the geo map
 
-add bar chart on the geo map
+https://nzprimarysectortrade.wordpress.com/2011/10/02/let-r-fly-visualizing-export-data-using-r/
+
+add bar chart on the geo map/histogram / bar chart over map
+
+http://rgraphgallery.blogspot.com/2013/04/rg-histogram-bar-chart-over-map.html
+
+
+
+
+
+
+
+
+
+
+
